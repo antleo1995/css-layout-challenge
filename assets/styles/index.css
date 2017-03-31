@@ -1,0 +1,85 @@
+
+.container-fluid:{
+  border: 3px solid black;
+}
+.topBanner {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border: 3px solid green;
+    padding: 10px;
+    overflow: hidden;
+}
+.box1 {
+  margin: 0px;
+  border: 3px solid green;
+  width: 10%;
+  height: 100%;
+  float: left;
+  padding: 10px
+}
+.box2{
+  border: 3px solid green;
+  width: 10%;
+  height: 100%;
+  float: right;
+  padding: 10px
+}
+.box3{
+ border: 3px solid green;
+  width: 10%;
+  height: 100%;
+  float: right;
+  padding: 10px
+}
+.nextBanner{
+  margin: auto;
+    width: 70%;
+    border: 3px solid green;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    height: 30px;
+}
+.sideNav {
+   margin: auto;
+    width: 15%;
+    height: auto;
+    border: 3px solid green;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 60px;
+    float: left;
+    height: 200px;
+
+}
+.contentPane {
+  margin: 10px;
+    width: 65%;
+    height: auto;
+    border: 3px solid green;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    float: left;
+    height: 200px;
+}
+.innerbox1{
+  float: left;
+  border: 3px solid red;
+  height: 90px;
+  width: 150px;
+  z-index: 1;
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
